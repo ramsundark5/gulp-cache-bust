@@ -1,3 +1,4 @@
+This is a fork of gulp-cache-bust with minor mods to set "rel" instead of "t" in query string.
 # gulp-cache-bust
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]  [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
 
