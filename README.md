@@ -1,18 +1,18 @@
 This is a fork of gulp-cache-bust with minor mods to set "rel" instead of "t" in query string.
-# gulp-cache-bust
+# gulp-cache-bustrel
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]  [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
 
 > cachebust plugin for [gulp](https://github.com/wearefractal/gulp)
 
 ## Usage
-First, install `gulp-cache-bust` as a development dependency:
+First, install `gulp-cache-bustrel` as a development dependency:
 ```sh
-npm install --save-dev gulp-cache-bust
+npm install --save-dev gulp-cache-bustrel
 ```
 
 Then, add it to your `gulpfile.js`:
 ```js
-var cachebust = require('gulp-cache-bust');
+var cachebust = require('gulp-cache-bustrel');
 
 gulp.src('./dist/*/*.html')
 	.pipe(cachebust({
