@@ -5,7 +5,7 @@ fs = require('graceful-fs'),
 gutil = require('gulp-util'),
 map = require('map-stream'),
 tempWrite = require('temp-write'),
-cachebust = require('cachebust');
+cachebust = require('cachebustrel');
 
 module.exports = function (options) {
 	return map(function (file, cb) {
