@@ -1,5 +1,5 @@
 {
-	"name": "gulp-cache-bust",
+	"name": "gulp-cache-bustrel",
 	"version": "1.0.1",
 	"description": "Append a query string to your assets to bust that cache!",
 	"keywords": [
@@ -11,11 +11,11 @@
 		"timestamp"
 	],
 	"author": {
-		"name": "Daniel Furze",
-		"email": "daniel@furzeface.com",
-		"url": "https://github.com/furzeface"
+		"name": "Ram Kuppusamy",
+		"email": "ramsundark5@gmail.com",
+		"url": "https://github.com/ramsundark5"
 	},
-	"repository": "https://github.com/furzeface/gulp-cache-bust",
+	"repository": "https://github.com/ramsundark5/gulp-cache-bust",
 	"scripts": {
 		"test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
 		"coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
